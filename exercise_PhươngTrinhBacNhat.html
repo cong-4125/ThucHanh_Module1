@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function equation(a,b) {
+        if (a === 0) {
+            if(b === 0){
+                return "Phuong trinh vo so nghiem";
+            }else {
+                return "Phuong trinh vo nghiem";
+            }
+        }else {
+            return "Phuong trinh co nghiem :" + (-b/a);
+        }
+    }
+    document.write(equation(5,8));
+</script>
+</body>
+</html>
